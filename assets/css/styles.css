@@ -1,0 +1,36 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+p {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+footer {
+    text-align: center;
+}
